@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Movie Search App</title>
 </head>
@@ -11,9 +15,7 @@
         <input class="search__input" type="text" placeholder="Называние фильма">
         <button class="search__btn">Найти</button>
     </form>
-    <div id="movies">
-
-    </div>
+    <div id="movies" class="movies">Фильмы не найдены!</div>
 
     <script src="script.js"></script>
 </body>
