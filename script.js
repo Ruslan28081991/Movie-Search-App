@@ -8,6 +8,7 @@ const getMovies = () => {
   const inputValue = getInputValue();
   getApiMovies(inputValue);
 };
+console.log(movies);
 
 const getApiMovies = async (inputValue) => {
   try {
